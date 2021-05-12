@@ -1,0 +1,5 @@
+@mixin dash ($array, $offset, $width) {
+	stroke-dasharray: $array;
+	stroke-dashoffset: $offset;
+	stroke-dashwidth: $width;
+}

@@ -1,0 +1,31 @@
+{
+    "myself":{
+        "id":1,
+        "fullname":"Yves Mutshipayi",
+        "profession1":"Building Engineer",
+        "profession2":"Front-End Developer",
+        "avatar":"./images/bg/rosa-bon.png"
+    },
+    "education1": {
+        "level": "Highschool",
+        "area": "Electronics",
+        "year": "2013"
+    },
+    "education2": {
+        "level": "University",
+        "area": "Building Engineering",
+        "year": "2019"
+    },
+    "education3": {
+        "level": "Advanced School",
+        "area": "Web Development",
+        "year": "2021"
+    },
+    "services":[
+        "Creation of well designed and reponsive websites with new technologies as well for web apps.",
+        "UX and UI analysis on your project and efficiently done with an experienced team.",
+        "From layouts to supervision of your building projects, we can offer you our exepertise."
+    ],
+    "Skills":["JavaScript","HTML5","CSS3","SASS"]
+    
+}

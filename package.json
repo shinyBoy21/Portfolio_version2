@@ -1,0 +1,14 @@
+{
+  "name": "version2",
+  "version": "1.0.0",
+  "description": "Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch sass.scss:style.css"
+  },
+  "author": "Shiny Boy",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.16.3"
+  }
+}
