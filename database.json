@@ -1,31 +1,59 @@
 {
-    "myself":{
-        "id":1,
-        "fullname":"Yves Mutshipayi",
-        "profession1":"Building Engineer",
-        "profession2":"Front-End Developer",
-        "avatar":"./images/bg/rosa-bon.png"
-    },
-    "education1": {
-        "level": "Highschool",
-        "area": "Electronics",
-        "year": "2013"
-    },
-    "education2": {
-        "level": "University",
-        "area": "Building Engineering",
-        "year": "2019"
-    },
-    "education3": {
-        "level": "Advanced School",
-        "area": "Web Development",
-        "year": "2021"
-    },
-    "services":[
-        "Creation of well designed and reponsive websites with new technologies as well for web apps.",
-        "UX and UI analysis on your project and efficiently done with an experienced team.",
-        "From layouts to supervision of your building projects, we can offer you our exepertise."
-    ],
-    "Skills":["JavaScript","HTML5","CSS3","SASS"]
-    
+	"user": [
+		{
+			"id":"1",
+			"firstName":"Yves",
+			"lastName":"Mutshipayi",
+			"email":"yvesmut1000@gmail.com",
+			"phoneNumber":"+243817288439",
+			"nickName":"shinyBoy21",
+			"city":"Kinshasa,Mont-Ngafula"
+		}	
+	],
+
+	"education": [
+		{
+			"id":"1",
+			"img":"https://raw.githubusercontent.com/shinyBoy21/mockjson/main/undraw_circuit_board_4c4d.png",
+			"level":"Highschool",
+			"area":"Electronics",
+			"year":"2013"
+		},
+		{
+			"id":"2",
+			"img":"https://raw.githubusercontent.com/shinyBoy21/mockjson/main/undraw_under_construction_46pa.png",
+			"level":"University",
+			"area":"Building Engineering",
+			"year":"2019"
+		},
+		{
+			"id":"3",
+			"img":"https://raw.githubusercontent.com/shinyBoy21/mockjson/main/undraw_web_developer_p3e5.png",
+			"level":"Avanced School",
+			"area":"Web development",
+			"year":"2021"
+		}	
+	],
+
+	"projects": [
+		{
+			"id":"1",
+			"img":"https://raw.githubusercontent.com/shinyBoy21/mockjson/main/kda.JPG",
+			"site":"https://www.kinshasadigital.academy/",
+			"overview": "UI and UX analysis of the Kinshasa Digital Academy website in order to improving its traffics."
+		},
+		{
+			"id":"2",
+			"img":"https://raw.githubusercontent.com/shinyBoy21/mockjson/main/kd.JPG",
+			"site":"https://www.kinshasadigital.com/",
+			"overview": "Creation of the official website of Kinshasa Digital."
+		},
+		{
+			"id":"3",
+			"img":"https://raw.githubusercontent.com/shinyBoy21/mockjson/main/port.JPG",
+			"site":"https://github.com/shinyBoy21/My-portfolio",
+			"overview": "Design and creation of my Portfolio website in order to expose myself and my skills."
+		}
+	]
+
 }

@@ -1,13 +1,5 @@
 @import '../public/fonts/font.scss';
 @import'utils/_variables.scss';
-@import'pages/mediamin.scss';
-@import'pages/mediamax.scss';
-
-
-
-//@import 'mixin.scss';
-////@import 'colors.scss';
-//@import 'media.scss';
 
 
 body {
@@ -34,7 +26,6 @@ width: 100%;
 display: flex;
 flex-direction: column;
 justify-content: space-between;
-//border-bottom:1px solid black;
 }
 .about{
 height:760px;
@@ -46,20 +37,12 @@ justify-content: space-between;
 .hire {
 height:760px;
 width: 100%;
-//border:1px solid black;
 }
 .active {
 	border-bottom: 3px solid $red;
 	border-radius: 20px;
 	border-top:0.5px solid lightgray;
-	//background-color: lightblue;
-	//text-decoration: underline;
-	//padding: 10px
 }
-// .performance {
-// 	height:760px;
-// 	width: 100%;
-// }
 
 @media only screen and (min-width: 768px){
 
@@ -70,7 +53,6 @@ height: 40px;
 display: flex;
 flex-direction: row;
 justify-content: space-between;
-//border-bottom:1px solid #EAEAEB;
 position: fixed;
 z-index: 10;
 padding-top: 15px;
@@ -116,7 +98,6 @@ background-color: white;
 
 }
 
-//********************************************************
 
 //******************ABOUTME*******************************
 .about{
@@ -128,7 +109,7 @@ justify-content: space-between;
 background-image: url('../img/illustrations/undraw_Graduation_ktn0.png');
 background-repeat: no-repeat;
 background-size: 10% 10%;
-background-position: right center;
+background-position: right 45%;
 	&__description {
 	height:180px;
 	width: 80%;
@@ -190,11 +171,9 @@ background-position: right center;
 			justify-content: space-between;
 				&--detail {
 				height:190px;
-				width: 50%;	
-				background: url('../img/illustrations/undraw_circuit_board_4c4d.png');
-				background-repeat: no-repeat;
-				background-position: right;
-				background-size:contain;
+				width: 350px;
+				position: relative;
+				left: 10%;
 				}
 				&--valid {
 				height:50px;
@@ -249,12 +228,9 @@ background-position: right center;
 				}
 				&--illustration {
 				height:190px;
-				width: 130%;
-				background-image: url('../img/illustrations/undraw_under_construction_46pa.png');
-				background-position: center;
-				background-repeat: no-repeat;
-				background-position: center;
-				background-size:contain;
+				width: 350px;
+				position: relative;
+				left: 1%;
 				}
 			}
 		}
@@ -271,11 +247,9 @@ background-position: right center;
 			justify-content: space-between;
 				&--detail {
 				height:190px;
-				width: 60%;	
-				background-image: url('../img/illustrations/undraw_web_developer_p3e5.png');
-				background-repeat: no-repeat;
-				background-position: center;
-				background-size:contain;
+				width: 350px;
+				position: relative;
+				right: 10%;
 				}
 				&--valid {
 				height:55px;
@@ -303,11 +277,8 @@ background-position: right center;
 		}
 	}
 } 
-//******************************************************************
-
 
 }
-//***************minwidthEND
 
 //********************welcome page************************
 
@@ -454,10 +425,9 @@ padding: 10px;
 			}
 		}
 		}
-//*************************end of welcome
 
 
-//*********************************hire me*****************************
+//*********************************hire_m_Page*****************************
 .hire {
 height:760px;
 width: 100%;
@@ -657,7 +627,7 @@ justify-content: space-between;
 
 }
 
-//*****************************services and  skills************************
+//*****************************Services and  Skills************************
 
 .performance {
 	display: flex;
@@ -757,7 +727,7 @@ justify-content: space-between;
 			}
 	}
 
-	//**********************skill****************
+	//**********************Skills****************
 	.technology {
 		height:380px;
 		width: 100%;
@@ -861,7 +831,7 @@ justify-content: space-between;
 	}
 }
 
-//**********************************my projects*************************
+//**********************************Projects*************************
 .doings {
 height:450px;
 width: 100%;
@@ -888,9 +858,6 @@ justify-content: space-between;
 		position: relative;
 		top:40px;
 		margin: 0px 0px 20px 0px;
-		//margin-right: 30px;
-		//right: 50px;
-		//margin-right: -50px;
 
 			.project1 {
 			height: 400px;
@@ -907,17 +874,12 @@ justify-content: space-between;
 					height:300px;
 					width: 100%;
 					border-radius:5px;
-					background-image: url('../img/illustrations/kda.JPG');
-					background-repeat: no-repeat;
-					background-size:cover;
-					background-position: center;
 					border:0.5px solid lightgray;
 					}
 					&--text{ 
 					height:50px;
 					width: 100%;
 					font-size:0.9rem;
-					border :0.5px solid lightgray;
 					}
 					&--site {
 					height:25px;
@@ -951,22 +913,17 @@ justify-content: space-between;
 				flex-direction: column;
 				justify-content: space-between;
 					&--preview{
-					height:300px;
+					height:275px;
 					width: 100%;
 					display: flex;
 					flex-direction: column;
 					justify-content: space-between;
 					border:0.1px solid lightgray;
 					border-radius:5px;
-					background-image: url('../img/illustrations/kd.JPG');
-					background-repeat: no-repeat;
-					background-size: cover;
-					background-position: center;
 					}
 					&--text{
 					height:50px;
 					width: 100%;
-					border :0.5px solid lightgray;
 					font-size:0.9rem;
 					}
 					&--site {
@@ -1003,17 +960,15 @@ justify-content: space-between;
 					&--preview{
 					height:300px;
 					width: 100%;
+					display: flex;
+					flex-direction: column;
+					justify-content: space-between;
 					border:0.1px solid lightgray;
 					border-radius:5px;
-					background-image: url('../img/illustrations/port.JPG');
-					background-repeat: no-repeat;
-					background-size:cover;
-					background-position: center;
 					}
 					&--text{
 					height:50px;
 					width: 100%;
-					border :0.5px solid lightgray;
 					font-size:0.9rem;
 					}
 					&--site {
@@ -1040,7 +995,7 @@ justify-content: space-between;
 			}
 	}
 }
-//**********************************footer***********************************
+//**********************************Footer***********************************
 	.footer {
 		height: 400px;
 		width: 100%;
@@ -1273,13 +1228,9 @@ background-color: white;
 	height: 40px;
 	width: 100%;
 	line-height: 1px;
-	//border-radius: 50%;
 	font-size: 1rem;
 	font-weight: bold;
-	//opacity: 0.5;
-	color:#F07167;;
-	//opacity: 0.5;
-	//padding-top:12px;
+	color:#F07167;
 	background-position: center;
 	padding-top: 24px;
 	font-weight: bold;
@@ -1290,7 +1241,6 @@ background-color: white;
 		}
 	}
 }
-//************************
 
 #toggle:checked + .navbar__icon {
 	display:flex;
@@ -1303,12 +1253,10 @@ width: 100%;
 display: flex;
 flex-direction: column;
 justify-content: space-between;
-//border:1px solid black;
 }
 .main {
 width:100%;
 height: 280px;
-//border:1px solid black;
 flex-direction: column;
 justify-content: space-between;
 }
@@ -1344,7 +1292,6 @@ padding: 10px;
 	&__engineer{
 	width: 50%;
 	height: 200px;
-	//border:1px solid black;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -1372,14 +1319,12 @@ padding: 10px;
 	&__developer{
 	width: 50%;
 	height: 200px;
-	//border:1px solid black;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 	position: relative;
 	position: absolute;
 		&--preview {
-		//border:1px solid black;
 		width: 50%;
 		height: 180px;
 		background-repeat: no-repeat;
@@ -1390,7 +1335,6 @@ padding: 10px;
 		&--description {
 		width: 150px;
 		height: 40px;
-		//border:1px solid black;
 		text-align: center;
 		border-radius:40px;
 		font-size: 50%;
@@ -1406,7 +1350,6 @@ padding: 10px;
 .illustration {
 width: 110%;
 height: 380px;
-//background-image:url('../public/img/illustrations/undraw_startup_life_2du2.png');
 background-repeat: no-repeat;
 background-size: contain;
 background-position: top;
@@ -1427,7 +1370,6 @@ top: 1%;
 	}
 		
 }
-
 .about{
 height:760px;
 width: 100%;
@@ -1473,7 +1415,7 @@ justify-content: space-between;
 		}
  }
 
- //******************************************education**********************
+ //******************************************Education**********************
  .education {
 height:570px;
 width: 100%;
@@ -1492,11 +1434,7 @@ justify-content: space-between;
 		justify-content: space-between;
 			&--detail {
 			height:190px;
-			width: 67%;	
-			background-image: url('../img/illustrations/undraw_circuit_board_4c4d.png');
-			background-repeat: no-repeat;
-			background-position: right;
-			background-size:contain;
+			width: 350px;	
 			}
 			&--valid {
 			height:50px;
@@ -1549,12 +1487,7 @@ justify-content: space-between;
 				}
 				&--illustration {
 				height:190px;
-				width: 67%;
-				background-image: url('../img/illustrations/undraw_under_construction_46pa.png');
-				background-position: center;
-				background-repeat: no-repeat;
-				background-position: center;
-				background-size:contain;
+				width: 350px;
 				}
 			}
 		}
@@ -1569,11 +1502,7 @@ justify-content: space-between;
 			justify-content: space-between;
 				&--detail {
 				height:190px;
-				width: 67%;	
-				background-image: url('../img/illustrations/undraw_web_developer_p3e5.png');
-				background-repeat: no-repeat;
-				background-position: center;
-				background-size:contain;
+				width: 350px;
 				}
 				&--valid {
 				height:55px;
@@ -1600,9 +1529,8 @@ justify-content: space-between;
 		}
  	}
 } 
-//*****************************************************
 
-//***********************hire**********************
+//***********************Hire_me**********************
 .hire {
 height:760px;
 width: 100%;
@@ -1629,10 +1557,8 @@ justify-content: space-between;
 		&--preview {
 		height:200px;
 		width: 100%;
-		background-image:url('../img/illustrations/undraw_code_inspection_bdl7.png');//('illuRed/undraw_code_inspection_bdl7.png');
-		background-repeat: no-repeat;
-		background-size: contain;
-		background-position: left;
+		position: relative;
+		left: 20%;
 			&>i {
 			color: $red;
 			display: block;
@@ -1659,6 +1585,8 @@ justify-content: space-between;
 			position: relative;
 			left: 0%;
 			text-align: center;
+
+
 				& span {
 				color: $red;
 				}
@@ -1744,12 +1672,8 @@ justify-content: space-between;
 		&--text {
 		height:200px;
 		width: 100%;
-		background-image:url('../img/illustrations/undraw_shared_workspace_hwky.png');
-		background-repeat: no-repeat;
-		background-size: contain;
-		background-position: right;
 		position: relative;
-		left: 8%;
+		left: 5%;
 
 			&>span {
 			color: $red;
@@ -1805,7 +1729,7 @@ justify-content: space-between;
 	}
 }
 
-//*********************services and Skills*****************
+//*********************Services and Skills*****************
 
 .performance {
 	display: flex;
@@ -1834,7 +1758,6 @@ justify-content: space-between;
 			.details {
 				height: 550px;
 				width: 100%;
-				//border:1px solid black;
 				display: flex;
 				flex-direction: column;
 				justify-content: space-between;
@@ -1868,7 +1791,6 @@ justify-content: space-between;
 					display: flex;
 					flex-direction: row;
 					justify-content: space-between;
-					//border:1px solid black;
 						&--preview {
 						position: relative;
 						left: 55%;
@@ -1902,12 +1824,9 @@ justify-content: space-between;
 					display: flex;
 					flex-direction: row;
 					justify-content: space-between;
-					//border:1px solid black;
 						&--preview {
 						position: relative;
-						//left: 55%;
 						bottom: 40%;
-						//height:200px;
 						height:200px;
 						width: 40%;	
 						border:0.1px solid lightgray;
@@ -1920,7 +1839,6 @@ justify-content: space-between;
 						&--text {
 						display: block;
 						position: relative;
-						//right: 40%;
 						bottom: 20%;
 						text-align: center;
 						height:100px;
@@ -1938,530 +1856,498 @@ justify-content: space-between;
 
 @media only screen and (max-width: 767px){
 
-//************************************technology************************************************
+    //************************************technology************************************************
+    
+    .technology {
+        height:250px !important;
+        width: 100%;
+        display: flex;
+        flex-direction: column !important;
+        justify-content: space-between;
+    
+            &__title {
+                height:80px;
+                width: 100%;
+                color:$red;
+                & h2 {
+                    font-size: 2rem;
+                    text-align: left;
+                    }
+            }
+            &__list{
+                display: flex;
+                height:200px;
+                width: 100%;
+                display: flex;
+                flex-direction:row;
+                justify-content: space-between;
+                text-align: center;
+    
+                &--js{
+                position: relative;
+                top: 20%;
+                height:100px !important;
+                width: 20%;
+                font-size: 3rem !important;
+                text-align: center;
+                color: $darkblue;
+                line-height: 15px;
+                    & span {
+                        font-size: 1rem;
+                        font-weight: bold;
+                    }
+                }
+                &--react{
+                position: relative;
+                top: 20%;
+                height:100px;
+                width: 20%;
+                font-size: 3rem !important;
+                line-height: 15px;
+                text-align: center;
+                color: $darkblue;
+                    & span {
+                        font-size: 1rem;
+                        font-weight: bold;	
+                    }
+                }
+                &--html{
+                position: relative;
+                top: 20%;
+                height:100px !important;
+                width: 20%;
+                font-size: 3rem !important;
+                text-align: center;
+                color: $darkblue;
+                line-height: 15px;
+                    & span {
+                        font-size: 1rem;	
+                        font-weight: bold;
+                    }
+                }
+                &--css{
+                position: relative;
+                top: 20%;
+                height:100px !important;
+                width: 20%;
+                font-size: 3rem !important;
+                text-align: center;
+                color: $darkblue;
+                line-height: 15px;
+                    & span {
+                        font-size: 1rem;
+                        font-weight: bold;	
+                    }
+                }
+                &--sass{
+                position: relative;
+                top: 20%;
+                height:100px !important;
+                width: 20%;	
+                font-size: 3rem !important;
+                line-height: 15px;
+                text-align: center;
+                color: $darkblue;
+                    & span {
+                        font-size: 1rem;
+                        font-weight: bold;	
+                    }
+                }
+                
+            }
+    
+        }
+    
+    //*********************************************doings*************************************
+        .doings {
+            height: auto;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;	
+                &__title {
+                    height:50px;
+                    width: 100%;
+                    color: $red;
+                    & h2 {
+                        font-size: 2rem;
+                        text-align: left;
+                        padding-left: 125px;
+                    }
+                }
+                &__project {
+                    height:1400px;
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;
+                    position: relative;
+                    top:100%;
+                    margin: 0px 0px 20px 0px;
+            
+                        .project1 {
+                        position: relative;
+                        top: 2%;
+                        height: 400px;
+                        width: 100%;
+                            &__kda {
+                            height:400px;
+                            width: 100%;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: space-between;	
+                            
+                                &--preview{ 
+                                position: relative;
+                                left: 50%;
+                                transform: translate(-50%,0);
+                                height:200px;
+                                width: 70%;
+                                border:1px solid lightgray;
+                                border-top-left-radius: 10px;
+                                border-top-right-radius: 10px;
+                                }
+                                &--text{
+                                display: block;
+                                position: relative;
+                                left: 50%;
+                                transform: translate(-50%,0); 
+                                height:50px;
+                                width: 80%;
+                                border:0.5px solid lightgray;
+                                font-size:0.9rem;
+                                text-align: center;
+                                }
+                                &--site{
+                                position: relative;
+                                left: 50%;
+                                bottom: 5%;
+                                transform: translate(-50%,0);
+                                height:50px;
+                                width: 50%;
+                                text-decoration: none;
+                                font-size: 12px;
+                                color: $darkblue;
+                                }
+                                &--explore{
+                                height:25px;
+                                display: block;
+                                width: 20%;
+                                background-color: $lightgray;
+                                cursor: pointer;
+                                border:0.5px solid lightgray;
+                                border-radius:2px;
+                                padding: 5px;
+                                text-align: center;
+                                position: relative;
+                                left: 50%;
+                                bottom: 10%;
+                                transform: translate(-50%,0);
+                                }
+                            }
+                        }
+                        .project2 {
+                        height: 400px;
+                        width: 100%;
+                            &__kd {
+                            height:400px;
+                            width: 100%;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: space-between;
+                                &--preview{
+                                position: relative;
+                                left: 50%;
+                                transform: translate(-50%,0);
+                                height:200px;
+                                width: 70%;
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: space-between;
+                                border:0.5px solid lightgray;
+                                border-top-left-radius: 10px;
+                                border-top-right-radius: 10px;
+                                }
+                                &--text{
+                                position: relative;
+                                left: 50%;
+                                transform: translate(-50%,0);
+                                height:50px;
+                                width: 80%;
+                                border:0.5px solid lightgray;
+                                font-size:0.9rem;
+                                text-align: center;
+                                }
+                                &--site {
+                                position: relative;
+                                left: 50%;
+                                bottom: 5%;
+                                transform: translate(-50%,0);
+                                height:50px;
+                                width: 50%;
+                                text-decoration: none;
+                                font-size: 12px;
+                                color: $darkblue;
+                                }
+                                &--explore{
+                                height:25px;
+                                display: block;
+                                width: 20%;
+                                background-color: $lightgray;
+                                cursor: pointer;
+                                border:0.5px solid lightgray;
+                                border-radius:2px;
+                                padding: 5px;
+                                text-align: center;
+                                position: relative;
+                                left: 50%;
+                                transform: translate(-50%,0);
+                                bottom: 10%;
+                                }
+                            }
+                            }
+                        }
+                        .project3 {
+                        position: relative;
+                        bottom: 2%;
+                        height: 400px;
+                        width: 100%;
+                            &__portfolio {
+                            height:400px;
+                            width: 100%;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: space-between;
+                                &--preview{
+                                position: relative;
+                                left: 50%;
+                                transform: translate(-50%,0);
+                                border:0.5px solid lightgray;
+                                height:200px;
+                                width: 70%;
+                                border-top-left-radius: 10px;
+                                border-top-right-radius: 10px;
+                                }
+                                &--text{
+                                position: relative;
+                                left: 50%;
+                                transform: translate(-50%,0);
+                                height:50px;
+                                width: 80%;
+                                border:0.5px solid lightgray;
+                                font-size:0.9rem;
+                                }
+                                &--site {
+                                position: relative;
+                                left: 50%;
+                                bottom: 5%;
+                                transform: translate(-50%,0);
+                                height:50px;
+                                width: 50%;
+                                text-decoration: none;
+                                font-size: 12px;
+                                color: $darkblue;
+                                }
+                                &--explore{
+                                height:25px;
+                                display: block;
+                                width: 20%;
+                                background-color: $lightgray;
+                                cursor: pointer;
+                                border:0.5px solid lightgray;
+                                border-radius:2px;
+                                padding: 5px;
+                                text-align: center;
+                                position: relative;
+                                left: 50%;
+                                transform: translate(-50%,0);
+                                bottom: 10%;
+                                }
+                            
+                            
+                        }
+                }
+    
+            
+    
+                
+        }
+    
+        //*************************************footer***********************************
+    
+        .footer {
+            height: auto;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 0;
+            margin-top: 50px;
+            .social {
+                margin-top:100px;
+                height: auto;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                .contact {
+                    height: 50px;
+                    width: 100%;
+                    padding-left: 100px;
+                    font-size: 2rem;
+                    text-align: left;
+                    padding-left: 125px;
+                    color: $red;
+                }
+                .form {
+                    height: 700px;
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;
+                    .contacts {
+                        position: relative;
+                        left: 50%;
+                        transform: translate(-50%);
+                        width: 80%;
+                        height: 300px;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-around;
+                        .email {
+                            position: relative;
+                            height: 70px;
+                            width: 100%;
+                            &__render {
+                                padding-left: 10px;
+                                border-top-left-radius: 10px;
+                                border-top-right-radius: 10px;
+                                position: absolute;
+                                left: 50%;
+                                transform: translate(-50%,0);
+                                height: 60px;
+                                width: 70%;
+                                border: 1px solid lightgray;
+                            }
+                        }
+                        .location {
+                            position: relative;
+                            height: 70px;
+                            width: 100%;
+                            &__render {
+                                border-top-left-radius: 10px;
+                                border-top-right-radius: 10px;
+                                position: absolute;
+                                left: 50%;
+                                transform: translate(-50%,0);
+                                height: 60px;
+                                width: 70%;
+                                border: 1px solid lightgray;
+                                padding-left: 10px;
+                            }
+                        }
+                        .number {
+                            position: relative;
+                            height: 70px;
+                            width: 100%;
+                            &__render {
+                                border-top-left-radius: 10px;
+                                border-top-right-radius: 10px;
+                                position: absolute;
+                                left: 50%;
+                                transform: translate(-50%,0);
+                                height: 60px;
+                                width: 70%;
+                                border: 1px solid lightgray;
+                                padding-left: 10px;
+                            }
+                        }
+                        .github {
+                            position: relative;
+                            height: 70px;
+                            width: 100%;
+                            &__render {
+                                border-top-left-radius: 10px;
+                                border-top-right-radius: 10px;
+                                position: absolute;
+                                left: 50%;
+                                transform: translate(-50%,0);
+                                height: 60px;
+                                width: 70%;
+                                border: 1px solid lightgray;
+                                padding-left: 10px;
+                                line-height: 5px;
+                            }
+                        }
+                    }
+                    .input {
+                        position: relative;
+                        left: 50%;
+                        top: 10%;
+                        transform: translate(-50%,0);
+                        width: 70%;
+                        height: 300px;
+                        border: 1px solid lightgray;
+                        border-radius: 10px;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-around;
+                        padding-left: 50px;
+                        input {
+                            width: 80%;
+                            height: 30px;
+                        } 
+                        textarea {
+                            resize: none;
+                            width: 80%;
+                            height: 100px;
+                        }
+                        button {
+                            height: 30px;
+                            width: 30%;
+                            background-color:$red;
+                            text-decoration: none;
+                            border:none;
+                            border-radius: 5px;
+                            &:hover {
+                                background-color: $darkblue;
+                            }
+                        }
+                    }
+                }
+                .socialmedia {
+                    margin-top: 100px;
+                    height:60px ;
+                    width: 100%;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    &-icon{
+                        height: 30px;
+                        width: 20%;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        padding-left: 20px;
+                        &>a {
+                            font-size: 1.5rem;
+                            color: $red;
+                        }
+                    }
+                    .copyright {
+                        height: 20px;
+                        width: 20%;
+                        margin-top: 10px;
+                        text-align: right;
+                        padding-right: 10px;
+                    }
+                }
+            }
+        }
+    
+    }
+    
 
-.technology {
-	//background-color: lightgray;
-	height:250px !important;
-	width: 100%;
-	//border:1px solid black;
-	display: flex;
-	flex-direction: column !important;
-	justify-content: space-between;
-
-		&__title {
-			height:80px;
-			width: 100%;
-			color:$red;
-			& h2 {
-				font-size: 2rem;
-				text-align: left;
-				}
-		}
-		&__list{
-			display: flex;
-			//flex-wrap: wrap !important;
-			height:200px;
-			width: 100%;
-			display: flex;
-			flex-direction:row;
-			justify-content: space-between;
-			text-align: center;
-			//font-family: 'Montserrat', sans-serif;
-
-			&--js{
-			position: relative;
-			top: 20%;
-			height:100px !important;
-			width: 20%;
-			//border:1px solid black;
-			font-size: 3rem !important;
-			text-align: center;
-			color: $darkblue;
-			line-height: 15px;
-				& span {
-					font-size: 1rem;
-					font-weight: bold;
-				}
-			}
-			&--react{
-			position: relative;
-			top: 20%;
-			height:100px;
-			width: 20%;
-			font-size: 3rem !important;
-			line-height: 15px;
-			text-align: center;
-			color: $darkblue;
-				& span {
-					font-size: 1rem;
-					font-weight: bold;	
-				}
-			}
-			&--html{
-			position: relative;
-			top: 20%;
-			height:100px !important;
-			width: 20%;
-			font-size: 3rem !important;
-			text-align: center;
-			color: $darkblue;
-			line-height: 15px;
-				& span {
-					font-size: 1rem;	
-					font-weight: bold;
-				}
-			}
-			&--css{
-			position: relative;
-			top: 20%;
-			height:100px !important;
-			width: 20%;
-			font-size: 3rem !important;
-			text-align: center;
-			color: $darkblue;
-			line-height: 15px;
-				& span {
-					font-size: 1rem;
-					font-weight: bold;	
-				}
-			}
-			&--sass{
-			position: relative;
-			top: 20%;
-			height:100px !important;
-			width: 20%;	
-			font-size: 3rem !important;
-			line-height: 15px;
-			text-align: center;
-			color: $darkblue;
-				& span {
-					font-size: 1rem;
-					font-weight: bold;	
-				}
-			}
-			
-		}
-
-	}
-
-//*********************************************doings*************************************
-	.doings {
-		height: auto;
-		width: 100%;
-		display: flex;
-		flex-direction: column;
-		justify-content: space-between;	
-		//border:1px solid black;
-		//background-color: lightgray;
-			&__title {
-				height:50px;
-				width: 100%;
-				color: $red;
-				& h2 {
-					font-size: 2rem;
-					text-align: left;
-					padding-left: 125px;
-				}
-			}
-			&__project {
-				height:1400px;
-				width: 100%;
-				display: flex;
-				flex-direction: column;
-				justify-content: space-around;
-				position: relative;
-				top:100%;
-				margin: 0px 0px 20px 0px;
-				//margin-right: 30px;
-				//right: 50px;
-				//margin-right: -50px;
-		
-					.project1 {
-					height: 400px;
-					width: 100%;
-						&__kda {
-						height:400px;
-						width: 100%;
-						display: flex;
-						flex-direction: column;
-						justify-content: space-between;	
-						//transition: 0.5s ease-in-out;
-						
-							&--preview{ 
-							position: relative;
-							left: 50%;
-							transform: translate(-50%,0);
-							height:200px;
-							width: 80%;
-							border:1px solid lightgray;
-							border-top-left-radius: 10px;
-							border-top-right-radius: 10px;
-							background-image: url('../img/illustrations/kda.JPG');
-							background-repeat: no-repeat;
-							background-size:cover;
-							background-position: center;
-							}
-							&--text{
-							display: block;
-							position: relative;
-							left: 50%;
-							transform: translate(-50%,0);
-							//top:-50px; 
-							height:50px;
-							width: 80%;
-							border:0.5px solid lightgray;
-							font-size:0.9rem;
-							text-align: center;
-							}
-							&--site{
-							position: relative;
-							left: 50%;
-							bottom: 5%;
-							transform: translate(-50%,0);
-							height:50px;
-							width: 50%;
-							text-decoration: none;
-							font-size: 12px;
-							color: $darkblue;
-							}
-							&--explore{
-							height:25px;
-							display: block;
-							width: 20%;
-							background-color: $lightgray;
-							cursor: pointer;
-							border:0.5px solid lightgray;
-							border-radius:2px;
-							padding: 5px;
-							text-align: center;
-							position: relative;
-							left: 50%;
-							bottom: 10%;
-							transform: translate(-50%,0);
-							}
-						}
-					}
-					.project2 {
-					height: 400px;
-					width: 100%;
-						&__kd {
-						height:400px;
-						width: 100%;
-						display: flex;
-						flex-direction: column;
-						justify-content: space-between;
-							&--preview{
-							position: relative;
-							left: 50%;
-							transform: translate(-50%,0);
-							height:200px;
-							width: 80%;
-							//border:1px solid black;
-							display: flex;
-							flex-direction: column;
-							justify-content: space-between;
-							border:0.5px solid lightgray;
-							border-top-left-radius: 10px;
-							border-top-right-radius: 10px;
-							//border:0.1px solid lightgray;
-							//border-radius:5px;
-							background-image: url('../img/illustrations/kd.JPG');
-							background-repeat: no-repeat;
-							background-size: cover;
-							background-position: center;
-		
-							//background-position: top left;
-							}
-							&--text{
-							//bottom: 10%;
-							position: relative;
-							left: 50%;
-							transform: translate(-50%,0);
-							height:50px;
-							width: 80%;
-							border:0.5px solid lightgray;
-							font-size:0.9rem;
-							text-align: center;
-							}
-							&--site {
-							position: relative;
-							left: 50%;
-							bottom: 5%;
-							transform: translate(-50%,0);
-							height:50px;
-							width: 50%;
-							text-decoration: none;
-							font-size: 12px;
-							color: $darkblue;
-							}
-							&--explore{
-							height:25px;
-							display: block;
-							width: 20%;
-							background-color: $lightgray;
-							cursor: pointer;
-							border:0.5px solid lightgray;
-							border-radius:2px;
-							padding: 5px;
-							text-align: center;
-							position: relative;
-							left: 50%;
-							transform: translate(-50%,0);
-							bottom: 10%;
-							}
-						}
-						}
-					}
-					.project3 {
-					height: 400px;
-					width: 100%;
-						&__portfolio {
-						height:400px;
-						width: 100%;
-						display: flex;
-						flex-direction: column;
-						justify-content: space-between;
-							&--preview{
-							position: relative;
-							left: 50%;
-							transform: translate(-50%,0);
-							border:0.5px solid lightgray;
-							height:200px;
-							width: 80%;
-							//border:1px solid black;
-							//border:0.1px solid lightgray;
-							//border-radius:5px;
-							background-image: url('../img/illustrations/port.JPG');
-							background-repeat: no-repeat;
-							background-size:cover;
-							background-position: center;
-							border-top-left-radius: 10px;
-							border-top-right-radius: 10px;
-							//background-position: top left;
-							}
-							&--text{
-							position: relative;
-							left: 50%;
-							transform: translate(-50%,0);
-							height:50px;
-							width: 80%;
-							border:0.5px solid lightgray;
-							font-size:0.9rem;
-							}
-							&--site {
-							position: relative;
-							left: 50%;
-							bottom: 5%;
-							transform: translate(-50%,0);
-							height:50px;
-							width: 50%;
-							text-decoration: none;
-							font-size: 12px;
-							color: $darkblue;
-							}
-							&--explore{
-							height:25px;
-							display: block;
-							width: 20%;
-							background-color: $lightgray;
-							cursor: pointer;
-							border:0.5px solid lightgray;
-							border-radius:2px;
-							padding: 5px;
-							text-align: center;
-							position: relative;
-							left: 50%;
-							transform: translate(-50%,0);
-							bottom: 10%;
-							}
-						
-						
-					}
-			}
-
-		
-
-			
-	}
-
-	//*************************************footer***********************************
-
-	.footer {
-		height: auto;
-		width: 100%;
-		display: flex;
-		flex-direction: column;
-		justify-content: space-between;
-		padding: 0;
-		margin-top: 50px;
-		.social {
-			margin-top:100px;
-			height: auto;
-			width: 100%;
-			display: flex;
-			flex-direction: column;
-			justify-content: space-around;
-			.contact {
-				height: 50px;
-				width: 100%;
-				padding-left: 100px;
-				font-size: 2rem;
-				text-align: left;
-				padding-left: 125px;
-				color: $red;
-			}
-			.form {
-				height: 700px;
-				width: 100%;
-				display: flex;
-				flex-direction: column;
-				justify-content: space-around;
-				.contacts {
-					position: relative;
-					left: 50%;
-					transform: translate(-50%);
-					width: 80%;
-					height: 300px;
-					display: flex;
-					flex-direction: column;
-					justify-content: space-around;
-					.email {
-						position: relative;
-						height: 70px;
-						width: 100%;
-						&__render {
-							padding-left: 10px;
-							border-top-left-radius: 10px;
-							border-top-right-radius: 10px;
-							position: absolute;
-							left: 50%;
-							transform: translate(-50%,0);
-							height: 60px;
-							width: 70%;
-							border: 1px solid lightgray;
-							&>span {
-
-							}
-						}
-					}
-					.location {
-						position: relative;
-						height: 70px;
-						width: 100%;
-						&__render {
-							border-top-left-radius: 10px;
-							border-top-right-radius: 10px;
-							position: absolute;
-							left: 50%;
-							transform: translate(-50%,0);
-							height: 60px;
-							width: 70%;
-							border: 1px solid lightgray;
-							padding-left: 10px;
-						}
-					}
-					.number {
-						position: relative;
-						height: 70px;
-						width: 100%;
-						&__render {
-							border-top-left-radius: 10px;
-							border-top-right-radius: 10px;
-							position: absolute;
-							left: 50%;
-							transform: translate(-50%,0);
-							height: 60px;
-							width: 70%;
-							border: 1px solid lightgray;
-							padding-left: 10px;
-						}
-					}
-					.github {
-						position: relative;
-						height: 70px;
-						width: 100%;
-						&__render {
-							border-top-left-radius: 10px;
-							border-top-right-radius: 10px;
-							position: absolute;
-							left: 50%;
-							transform: translate(-50%,0);
-							height: 60px;
-							width: 70%;
-							border: 1px solid lightgray;
-							padding-left: 10px;
-							line-height: 5px;
-						}
-					}
-				}
-				.input {
-					position: relative;
-					left: 50%;
-					top: 10%;
-					transform: translate(-50%,0);
-					width: 70%;
-					height: 300px;
-					border: 1px solid lightgray;
-					border-radius: 10px;
-					display: flex;
-					flex-direction: column;
-					justify-content: space-around;
-					padding-left: 50px;
-					input {
-						width: 80%;
-						height: 30px;
-					} 
-					textarea {
-						resize: none;
-						width: 80%;
-						height: 100px;
-					}
-					button {
-						height: 30px;
-						width: 30%;
-						background-color:$red;
-						text-decoration: none;
-						border:none;
-						border-radius: 5px;
-						&:hover {
-							background-color: $darkblue;
-						}
-					}
-				}
-			}
-			.socialmedia {
-				margin-top: 100px;
-				height:60px ;
-				width: 100%;
-				display: flex;
-				flex-direction: row;
-				justify-content: space-between;
-				//padding-top: 20px;
-				&-icon{
-					height: 30px;
-					width: 20%;
-					display: flex;
-					flex-direction: row;
-					justify-content: space-between;
-					padding-left: 20px;
-					&>a {
-						font-size: 1.5rem;
-						color: $red;
-					}
-				}
-				.copyright {
-					height: 20px;
-					width: 20%;
-					margin-top: 10px;
-					text-align: right;
-					padding-right: 10px;
-				}
-			}
-		}
-	}
-
-}
 
 
 

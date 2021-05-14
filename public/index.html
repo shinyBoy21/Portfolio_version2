@@ -38,7 +38,7 @@
 					<div class="text">
 						<div class="text__welcome">
 						<p class="text__welcome--display">Welcome!</p>
-						<h1> My name is <span>Yves Mutshipayi</span> &nbsp;<span class="text__welcome--typing" id="typing"></span></h1>
+						<h1> My name is <span id="fullName"></span> &nbsp;<span class="text__welcome--typing" id="typing"></span></h1>
 						</div>
 					</div>
 
@@ -80,12 +80,12 @@
 
 				<div class="highschool">
 					<div class="highschool__way">
-						<div class="highschool__way--detail"></div>
+						<img class="highschool__way--detail" id="levelOnePreview" alt="circuit_board"/>
 						<div class="highschool__way--valid"><i class="far fa-check-circle"></i></div>
 						<div class="highschool__way--illustration">
-							<h3>Highschool</h3>
-							<p>Electronics</p>
-							<p>2013</p>
+							<h3 id="levelOne"></h3>
+							<p id="levelOneArea"></p>
+							<p id="levelOneYear"></p>
 					</div>
 					</div>
 				</div>
@@ -93,22 +93,22 @@
 				<div class="university">
 					<div class="university__way">
 						<div class="university__way--detail">
-							<h3>University</h3>
-							<p>Building Engineering</p>
-							<p>2019</p>
+							<h3 id="levelTwo"></h3>
+							<p id="levelTwoArea"></p>
+							<p id="levelTwoYear"></p>
 						</div>
 						<div class="university__way--valid"><i class="far fa-check-circle"></i></div>
-						<div class="university__way--illustration"></div>
+						<img class="university__way--illustration" id="levelTwoPreview" alt="building"/>
 					</div>
 				</div>
 				<div class="advanced">
 					<div class="advanced__way">
-						<div class="advanced__way--detail"></div>
+						<img class="advanced__way--detail" id="levelThreePreview" alt="development"/>
 						<div class="advanced__way--valid"><i class="fas fa-sync-alt"></i></div>
 						<div class="advanced__way--illustration">
-							<h3>Advanced School</h3>
-							<p>Web development</p>
-							<p>2021</p>
+							<h3 id="levelThree"></h3>
+							<p id="levelThreeArea"></p>
+							<p id="levelThreeYear"></p>
 						</div>
 					</div>
 				</div>
@@ -124,18 +124,18 @@
 				<div class="hire__communication--preview"><i class="fas fa-brain"></i></div>
 				<div class="hire__communication--text"><p class="hire__communication--text-p1"><span>&#10094;</span>Incredible communication skills in team-works.<span>&#10095;</span></p>
 
-				<p class="hire__communication--text-p2"><span>&#10094;</span>Available for remote works. so wherever you are we can work together and produce an amazing outcome.<span>&#10095;</span></p>
+				<p class="hire__communication--text-p2"><span>&#10094;</span>Available for remote works, so wherever you are we can work together and produce an amazing outcome.<span>&#10095;</span></p>
 
 				<p class="hire__communication--text-p3"><span>&#10094;</span>Work with effective methods used in project management such as SCRUM.<span>&#10095;</span></p>
 				</div>
 			</div>
 
 			<div class="hire__remote">
-				<div class="hire__remote--preview"><p class="hire__remote--preview-p1"><span>&#10094;</span>Can work on a multi-lingual environment because fluent in English and French.<span>&#10095;</span></p>
+				<div class="hire__remote--preview"><p class="hire__remote--preview-p1"><span>&#10094;</span>Can work in a multi-lingual environment because of English and French proficient.<span>&#10095;</span></p>
 
 				<p class="hire__remote--preview-p2"><span>&#10094;</span>I am technical and able to deal with all problems that arise.<span>&#10095;</span></p>
 
-				<p class="hire__remote--preview-p3"><span>&#10094;</span>Beside all, I am a quick learner and I am always eager to learn new things to build my knwoledge up.<span>&#10095;</span></p>
+				<p class="hire__remote--preview-p3"><span>&#10094;</span>Above all, I am a quick learner and I am always eager to learn new things to build up my knowledge.<span>&#10095;</span></p>
 
 				</div>
 				<div class="hire__remote--text"><span>&#10094;<i class="fas fa-tv"></i>&#10095;</span></div>
@@ -155,7 +155,7 @@
 				<div class="details">
 					<div class="details__website">
 						<div class="details__website--preview"></div>
-						<div class="details__website--text"><p>creation of well designed and reponsive websites with new technologies as well for web apps.</p></div>
+						<div class="details__website--text"><p>creation of well designed and responsive websites with new technologies as well for web apps.</p></div>
 					</div>
 
 					<div class="details__design">
@@ -165,7 +165,7 @@
 
 					<div class="details__layout">
 						<div class="details__layout--preview"></div>
-						<div class="details__layout--text"><p>from layouts to supervision of your building projects, we can offer you our exepertise.</p></div>
+						<div class="details__layout--text"><p>from layouts to supervision of your building projects, we can offer you our expertise.</p></div>
 					</div>
 				</div>
 			</div>
@@ -190,27 +190,27 @@
 				<div class="doings__project">
 					<div class="project1">
 						<div class="project1__kda">
-							<a href="https://www.kinshasadigital.academy/" class="project1__kda--preview" target=_blank></a>
-							<div class="project1__kda--text"><p>UI and UX analysis of the Kinshasa Digital Academy website in order to improving its traffics</p></div><br>
-							<a href="https://www.kinshasadigital.academy/" class="project1__kda--site"target=_blank>https://www.kinshasadigital.academy/</a>
+							<img id="projectOnePreview" class="project1__kda--preview" alt="kda"></img>
+							<div class="project1__kda--text"><p id="projectOneText"></p></div><br>
+							<a class="project1__kda--site" target=_blank id="projectOneSite"></a>
 							<a class="project1__kda--explore"><i class="fab fa-github-square"></i>&nbsp;Explore</a>
 						</div>
 					</div>
 
 					<div class="project2">
 						<div class="project2__kd">
-							<a href="https://www.kinshasadigital.com/" class="project2__kd--preview" target=_blank></a>
-							<div class="project2__kd--text"><p>Creation of the official website of Kinshasa Digital</p></div><br>
-							<a href="https://www.kinshasadigital.com/" class="project2__kd--site" target=_blank>https://www.kinshasadigital.com/</a>
+							<img id="projectTwoPreview" class="project2__kd--preview" alt="kd"></img>
+							<div class="project2__kd--text" ><p id="projectTwoText"></p></div><br>
+							<a class="project2__kd--site" target=_blank id="projectTwoSite"></a>
 							<a class="project2__kd--explore"><i class="fab fa-github-square"></i>&nbsp;Explore</a>
 						</div>
 					</div>
 
 					<div class="project3">
 						<div class="project3__portfolio">
-							<a href="#" class="project3__portfolio--preview"></a>
-							<div class="project3__portfolio--text"><p>Design and creation of my Portfolio website in order to expose myself and my skills</p></div><br>
-							<a href="" class="project3__portfolio--site" target=_blank>Available soon</a>
+							<img id="projectThreePreview" class="project3__portfolio--preview" alt="portfolio"></img>
+							<div class="project3__portfolio--text"><p id="projectThreeText"></p></div><br>
+							<a href="" class="project3__portfolio--site" target=_blank id="projectThreeSite"></a>
 							<a class="project3__portfolio--explore"><i class="fab fa-github-square"></i>&nbsp;Explore</a>
 						</div>
 					</div>
@@ -227,22 +227,22 @@
 					<div class="contacts"  id="contacts">
 						<div class="email">
 							<div class="email__render"><span class="email__render-icon">
-								<i class="far fa-envelope"></i></span><h4>yvesmut1000@gmail.com</h4>
+								<i class="far fa-envelope"></i></span><h4 id="myEmail"></h4>
 							</div>
 						</div>
 						<div class="location">
 							<div class="location__render">
-								<span><i class="fas fa-map-marker-alt"></i></span><h4>Kinshasa, Mont-Ngafula</h4>
+								<span><i class="fas fa-map-marker-alt"></i></span><h4 id="myCity"></h4>
 							</div>
 						</div>
 						<div class="number">
 							<div class="number__render">
-								<span><i class="fas fa-mobile-alt"></i></span><h4>+243817288439</h4>
+								<span><i class="fas fa-mobile-alt"></i></span><h4 id="myNumber"></h4>
 							</div>
 						</div>
 						<div class="github">
 							<div class="github__render">
-								<span><i class="fab fa-github-alt"></i></span><h4>shinyBoy21</h4>
+								<span><i class="fab fa-github-alt"></i></span><h4 id="myNickname"></h4>
 							</div>
 						</div>
 					</div>

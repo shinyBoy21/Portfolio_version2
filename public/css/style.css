@@ -103,7 +103,7 @@ body {
     background-image: url("../img/illustrations/undraw_Graduation_ktn0.png");
     background-repeat: no-repeat;
     background-size: 10% 10%;
-    background-position: right center;
+    background-position: right 45%;
   }
   .about__description {
     height: 180px;
@@ -169,11 +169,9 @@ body {
   }
   .about .education .highschool__way--detail {
     height: 190px;
-    width: 50%;
-    background: url("../img/illustrations/undraw_circuit_board_4c4d.png");
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size: contain;
+    width: 350px;
+    position: relative;
+    left: 10%;
   }
   .about .education .highschool__way--valid {
     height: 50px;
@@ -228,12 +226,9 @@ body {
   }
   .about .education .university__way--illustration {
     height: 190px;
-    width: 130%;
-    background-image: url("../img/illustrations/undraw_under_construction_46pa.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
+    width: 350px;
+    position: relative;
+    left: 1%;
   }
   .about .education .advanced {
     height: 190px;
@@ -250,11 +245,9 @@ body {
   }
   .about .education .advanced__way--detail {
     height: 190px;
-    width: 60%;
-    background-image: url("../img/illustrations/undraw_web_developer_p3e5.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
+    width: 350px;
+    position: relative;
+    right: 10%;
   }
   .about .education .advanced__way--valid {
     height: 55px;
@@ -846,17 +839,12 @@ body {
   height: 300px;
   width: 100%;
   border-radius: 5px;
-  background-image: url("../img/illustrations/kda.JPG");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
   border: 0.5px solid lightgray;
 }
 .doings__project .project1__kda--text {
   height: 50px;
   width: 100%;
   font-size: 0.9rem;
-  border: 0.5px solid lightgray;
 }
 .doings__project .project1__kda--site {
   height: 25px;
@@ -890,22 +878,17 @@ body {
   justify-content: space-between;
 }
 .doings__project .project2__kd--preview {
-  height: 300px;
+  height: 275px;
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   border: 0.1px solid lightgray;
   border-radius: 5px;
-  background-image: url("../img/illustrations/kd.JPG");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
 }
 .doings__project .project2__kd--text {
   height: 50px;
   width: 100%;
-  border: 0.5px solid lightgray;
   font-size: 0.9rem;
 }
 .doings__project .project2__kd--site {
@@ -941,17 +924,15 @@ body {
 .doings .project3__portfolio--preview {
   height: 300px;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   border: 0.1px solid lightgray;
   border-radius: 5px;
-  background-image: url("../img/illustrations/port.JPG");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
 }
 .doings .project3__portfolio--text {
   height: 50px;
   width: 100%;
-  border: 0.5px solid lightgray;
   font-size: 0.9rem;
 }
 .doings .project3__portfolio--site {
@@ -1396,11 +1377,7 @@ body {
   }
   .about .education .highschool__way--detail {
     height: 190px;
-    width: 67%;
-    background-image: url("../img/illustrations/undraw_circuit_board_4c4d.png");
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size: contain;
+    width: 350px;
   }
   .about .education .highschool__way--valid {
     height: 50px;
@@ -1453,12 +1430,7 @@ body {
   }
   .about .education .university__way--illustration {
     height: 190px;
-    width: 67%;
-    background-image: url("../img/illustrations/undraw_under_construction_46pa.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
+    width: 350px;
   }
   .about .education .advanced {
     height: 190px;
@@ -1473,11 +1445,7 @@ body {
   }
   .about .education .advanced__way--detail {
     height: 190px;
-    width: 67%;
-    background-image: url("../img/illustrations/undraw_web_developer_p3e5.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
+    width: 350px;
   }
   .about .education .advanced__way--valid {
     height: 55px;
@@ -1527,10 +1495,8 @@ body {
   .hire__communication--preview {
     height: 200px;
     width: 100%;
-    background-image: url("../img/illustrations/undraw_code_inspection_bdl7.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: left;
+    position: relative;
+    left: 20%;
   }
   .hire__communication--preview > i {
     color: #E63946;
@@ -1640,12 +1606,8 @@ body {
   .hire__remote--text {
     height: 200px;
     width: 100%;
-    background-image: url("../img/illustrations/undraw_shared_workspace_hwky.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: right;
     position: relative;
-    left: 8%;
+    left: 5%;
   }
   .hire__remote--text > span {
     color: #E63946;
@@ -1941,6 +1903,8 @@ body {
     margin: 0px 0px 20px 0px;
   }
   .doings__project .project1 {
+    position: relative;
+    top: 2%;
     height: 400px;
     width: 100%;
   }
@@ -1956,14 +1920,10 @@ body {
     left: 50%;
     transform: translate(-50%, 0);
     height: 200px;
-    width: 80%;
+    width: 70%;
     border: 1px solid lightgray;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    background-image: url("../img/illustrations/kda.JPG");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
   }
   .doings__project .project1__kda--text {
     display: block;
@@ -2018,17 +1978,13 @@ body {
     left: 50%;
     transform: translate(-50%, 0);
     height: 200px;
-    width: 80%;
+    width: 70%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     border: 0.5px solid lightgray;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    background-image: url("../img/illustrations/kd.JPG");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
   }
   .doings__project .project2__kd--text {
     position: relative;
@@ -2067,6 +2023,8 @@ body {
     bottom: 10%;
   }
   .doings .project3 {
+    position: relative;
+    bottom: 2%;
     height: 400px;
     width: 100%;
   }
@@ -2083,11 +2041,7 @@ body {
     transform: translate(-50%, 0);
     border: 0.5px solid lightgray;
     height: 200px;
-    width: 80%;
-    background-image: url("../img/illustrations/port.JPG");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    width: 70%;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
   }
